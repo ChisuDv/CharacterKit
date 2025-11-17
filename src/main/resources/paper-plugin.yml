@@ -1,0 +1,4 @@
+name: CharacterKit
+version: '1.0-SNAPSHOT'
+main: Chisu.characterKit.CharacterKit
+api-version: '1.21'
