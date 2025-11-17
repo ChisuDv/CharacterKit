@@ -4,7 +4,5 @@ main: Chisu.characterKit.CharacterKit
 api-version: '1.21'
 
 commands:
-  BlueKit:
+  ejemplo:
     description: Comando para obtener el CharacterKit de Blue
-    aliases:
-      - Blue

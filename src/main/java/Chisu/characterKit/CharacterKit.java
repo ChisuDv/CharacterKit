@@ -1,14 +1,13 @@
 package Chisu.characterKit;
 
-import Chisu.characterKit.Commands.BlueKitCommand;
+import Chisu.characterKit.Commands.EjemploCommand;
 import org.bukkit.plugin.java.JavaPlugin;
 
 public final class CharacterKit extends JavaPlugin {
 
     @Override
     public void onEnable() {
-        // Registro de comandos
-        getCommand("BlueKit").setExecutor(new BlueKitCommand());
+        getCommand("ejemplo").setExecutor(new EjemploCommand());
 
         // Mensaje de Inicio
         System.out.println("Characterkit fue activado correctamente!");
